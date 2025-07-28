@@ -1,0 +1,8 @@
+# Ignore this PureScript artifacts
+output/
+node_modules/
+.spago/
+.esbuild/
+*.js
+*.lock
+.DS_Store

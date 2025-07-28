@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quote Explorer</title>
+    <style>
+        body {
+            background-color: #fff7e6;
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        .quote-box {
+            background-color: white;
+            border-radius: 20px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+            padding: 2rem;
+            min-width: 400px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        h2 {
+            font-size: 2rem;
+            color: #001f3f;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+            margin-top: 0;
+        }
+
+        p {
+            font-size: 1.2rem;
+            color: #333;
+            margin: 1rem 0;
+        }
+
+        button {
+            background-color: #ff69b4;
+            border: none;
+            border-radius: 20px;
+            padding: 0.8rem 1.5rem;
+            font-size: 1rem;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #ff85c1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="quote-box" id="app"></div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
