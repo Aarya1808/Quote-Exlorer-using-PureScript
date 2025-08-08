@@ -13,13 +13,19 @@ to generate this file without the comments in this block.
 { name = "my-project"
 , dependencies =
   [ "aff"
+  , "affjax"
+  , "affjax-web"
+  , "argonaut-codecs"
+  , "argonaut-core"
   , "arrays"
   , "console"
   , "effect"
+  , "either"
   , "halogen"
+  , "http-methods"
   , "maybe"
   , "prelude"
-  , "random"
+  , "strings"
   , "web-dom"
   ]
 , packages = ./packages.dhall
